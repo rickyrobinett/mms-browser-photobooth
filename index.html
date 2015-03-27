@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Photobooth</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="app.css">
+  </head>
+  <body>
+    <div class="countdown">
+    </div>
+    <div class="container">
+      <h1>Photobooth</h1>
+      <video id="webcam-video" autoplay></video>
+      <div style="float: right; display: none;" id="preview">
+        <canvas></canvas><br />
+        Phone Number: <input id="phoneNumber"></input><br />
+        <button id="sharePicture">Share Picture</button>
+      </div><br />
+      <button id="takePicture">Take Picture</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="adapter.js"></script>
+    <script src="app.js"></script>
+  <body>
+</html>
